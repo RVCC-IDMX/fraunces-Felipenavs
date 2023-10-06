@@ -2,3 +2,20 @@
 
 @use "./base/reset";
 @use "./pages/home";
+
+body {
+    font-variation-settings: 'wght' 350, 'opsz' 59, 'SOFT' 59, 'WONK' 0.4;
+}
+
+h1 {
+    font-variation-settings: "SOFT" 26.9, "WONK" 0.23, "opsz" 49, "wght" 392;
+}
+
+
+.header__desc{
+    font-variation-settings: "SOFT" 100, "WONK" 0.877, "opsz" 9, "wght" 721
+}
+
+.header__desc--first{
+    font-variation-settings: "SOFT" 5, "WONK" 0.493, "opsz" 123, "wght" 126;
+}
